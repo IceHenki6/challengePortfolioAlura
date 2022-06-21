@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nav-bar.css">
+    <link rel="stylesheet" href="css/description.css">
+    <link rel="stylesheet" href="css/about-me.css">
+    <link rel="stylesheet" href="css/proyectos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins&display=swap" rel="stylesheet"> 
+    <title>Federico Maximovicz</title>
+  </head>
+  <body>
+    <header>
+      <div><p>Fede</p></div>
+      <nav class="nav-bar">
+        <ul>
+          <li class="nav-items">Sobre Mi</li>
+          <li class="nav-items">Skills</li>
+          <li class="nav-items">Hobbies</li>
+          <li class="nav-items">Proyectos</li>
+          <li class="nav-items">Contacto</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="description__container">
+        <div class="description">
+          <h1 class="name">Hola, mi nombre es Federico Manuel Maximovicz y construyo páginas web</h1>
+          <p class="quick-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eveniet voluptatibus ullam repudiandae animi. Labore porro a facilis accusamus fugiat aliquid ex eos dolores velit illum, sint fugit modi reiciendis.</p>
+          <ul class="socials__container">
+            <li class="socials">GitHub</li>
+            <li class="socials">LinkedIn</li>
+          </ul>
+        </div>
+        <div class="avatar__container">
+          <img src="images/federico-maximovicz.jpg" alt="Federico Maximovicz headshot" class="avatar">
+        </div>
+      </section>
+
+      <section class="about-me">
+        <div class="about-me__container">
+          <h2 class="about-me__titulo">Sobre mi</h2>
+          <div class="parrafos__container">
+            <p class="about-me__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, dolor reprehenderit sint explicabo qui nostrum dignissimos nam illo, laborum atque voluptas. Ratione, nihil non modi sint ducimus qui obcaecati et.</p>
+            <p class="about-me__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ex maiores quidem illum voluptatem deserunt amet quibusdam, dolorem ut laboriosam praesentium debitis, atque quo asperiores quis, eveniet corrupti molestiae! Voluptate.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="proyectos">
+        <div class="carousel">
+          <ul>
+            <li class="slide active"><img src="images/encriptador.png" alt="captura de pantalla del proyecto encriptador de texto" class="images"></li>
+            <li class="slide"><img src="images/juego-del-ahorcado.png" alt="captura de pantalla del proyecto juego del ahorcado" class="images"></li>
+            <li class="slide"><img src="images/aula-js.png" alt="captura de pantalla del spin off del proyeco del aula de Javascript de Alura Cursos" class="images"></li>
+          </ul>
+
+          <button class="buttons next" data-button="next"></button>
+          <button class="buttons prev" data-button="prev"></button>
+
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+
+
+    <script src="js/carousel.js"></script>
+  </body>
+</html>

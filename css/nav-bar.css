@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: var(--main-width);
+    height: 6vh;
+}
+
+
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-items{
+    margin: .6em;
+    font-weight: 400;
+    font-size: 1.1rem;  
+}
+
+

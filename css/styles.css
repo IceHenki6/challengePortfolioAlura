@@ -1,0 +1,14 @@
+:root{
+    --main-width: 70vw;
+}
+
+body{
+    background-color: rgb(238, 236, 236);
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,55 @@
+.description__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: var(--main-width);
+    height: 45vh;
+    margin: 1.3rem auto;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+
+.name{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.quick-description{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.3em;
+}
+
+.socials__container{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.socials__container .socials{
+    margin-left: 2em;
+}
+
+.avatar__container{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    height: 100%;
+}
+.avatar{
+    align-self: center;
+    max-width: 80%;
+    max-height: 80%;
+
+    min-width: 200px;
+    min-height: 200px;
+
+    border-radius: 50%;
+}

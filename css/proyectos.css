@@ -1,0 +1,48 @@
+.proyectos{
+    width: 100vw;
+    height: 55vh;
+    margin-top: 3rem; 
+}
+
+.carousel{
+    position: relative;
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto; 
+}
+
+.slide{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+}
+
+.active{
+    opacity: 1;
+}
+
+.images{
+    display: block;
+    width: 80vw;
+    height: 55vh;
+    object-fit: contain;
+    object-position: center;
+}
+
+.next{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    top: 70%;
+    right: 10rem;
+}
+
+.prev{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    top: 70%;
+    left: 10rem;
+}

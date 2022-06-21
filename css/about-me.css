@@ -1,0 +1,30 @@
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 45vh;
+    background-color: rgb(221, 220, 220);
+}
+
+.about-me__container{
+    width: var(--main-width);
+    margin: 0 auto;
+    align-items: center;
+}
+
+.about-me__titulo{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.parrafos__container{
+    width:80%;
+}
+
+.about-me__parrafo{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.3em;
+}

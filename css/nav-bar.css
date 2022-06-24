@@ -10,7 +10,7 @@ header{
 
 
 .nav-bar ul{
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: space-evenly;
 }

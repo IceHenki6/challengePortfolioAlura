@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="css/description.css">
     <link rel="stylesheet" href="css/about-me.css">
     <link rel="stylesheet" href="css/proyectos.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/hobbies.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins&display=swap" rel="stylesheet"> 
     <title>Federico Maximovicz</title>
   </head>
   <body>
     <header>
-      <div><p>Fede</p></div>
-      <nav class="nav-bar">
+      <div><p>Federico Maximovicz</p></div>
+      <nav class="nav-bar container">
         <ul>
           <li class="nav-items">Sobre Mi</li>
           <li class="nav-items">Skills</li>
@@ -26,8 +28,8 @@
       </nav>
     </header>
     <main>
-      <section class="description__container">
-        <div class="description">
+      <section class="description container">
+        <div class="description__seccion">
           <h1 class="name">Hola, mi nombre es Federico Manuel Maximovicz y construyo páginas web</h1>
           <p class="quick-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eveniet voluptatibus ullam repudiandae animi. Labore porro a facilis accusamus fugiat aliquid ex eos dolores velit illum, sint fugit modi reiciendis.</p>
           <ul class="socials__container">
@@ -35,12 +37,13 @@
             <li class="socials">LinkedIn</li>
           </ul>
         </div>
-        <div class="avatar__container">
-          <img src="images/federico-maximovicz.jpg" alt="Federico Maximovicz headshot" class="avatar">
-        </div>
+        <!-- <div class="avatar">
+          <img src="images/federico-maximovicz.jpg" alt="Federico Maximovicz headshot" class="avatar__img">
+        </div> -->
+        <img src="images/federico-maximovicz.jpg" alt="Federico Maximovicz headshot" class="avatar__img">
       </section>
 
-      <section class="about-me">
+      <section class="about-me container">
         <div class="about-me__container">
           <h2 class="about-me__titulo">Sobre mi</h2>
           <div class="parrafos__container">
@@ -51,17 +54,66 @@
       </section>
 
       <section class="proyectos">
+        <!-- <div class="projects__titulos">
+
+        </div> -->
+        
         <div class="carousel">
           <ul>
             <li class="slide active"><img src="images/encriptador.png" alt="captura de pantalla del proyecto encriptador de texto" class="images"></li>
             <li class="slide"><img src="images/juego-del-ahorcado.png" alt="captura de pantalla del proyecto juego del ahorcado" class="images"></li>
             <li class="slide"><img src="images/aula-js.png" alt="captura de pantalla del spin off del proyeco del aula de Javascript de Alura Cursos" class="images"></li>
           </ul>
-
-          <button class="buttons next" data-button="next"></button>
-          <button class="buttons prev" data-button="prev"></button>
+          <div class="overlay container">
+            <h3 class="project__titulo">Proyectos</h3>
+            <p class="project__descripcion">Encriptador de textos</p>
+          </div>
+          <button class="buttons" id="next" data-button="next">&rArr;</button>
+          <button class="buttons" id="prev" data-button="prev">&lArr;</button>
 
         </div>
+      </section>
+
+      
+      <section class="skills container">
+        <h2 class="skills__titulo">Skills</h2>
+        <div class="skills__container">
+          <div class="skill-box">
+
+          </div>
+          <div class="skill-box">
+  
+          </div>
+          <div class="skill-box">
+  
+          </div>
+          <div class="skill-box">
+  
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <section class="hobbies container">
+        <h2 class="hobbies__titulo">Hobbies</h2>
+        <div class="hobbies__container">
+          <div class="hobbies-box">
+
+          </div>
+          <div class="hobbies-box">
+  
+          </div>
+          <div class="hobbies-box">
+  
+          </div>
+          <div class="hobbies-box">
+  
+          </div>
+
+        </div>
+
       </section>
     </main>
     <footer></footer>

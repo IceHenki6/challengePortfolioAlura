@@ -1,0 +1,28 @@
+.skills, .hobbies{
+    padding-top: 10%;
+}
+
+.skills__container,.hobbies__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 60vh;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.skill-box, .hobbies-box{
+    position: relative;
+    width: 45%;
+    height: 40%;
+    background-color: red;
+    /* margin: 3px; */
+}
+
+.skills__titulo, .hobbies__titulo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}

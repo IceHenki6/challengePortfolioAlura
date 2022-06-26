@@ -1,0 +1,31 @@
+.formacion-academica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height: 80vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.formacion-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    height: 25%;
+    padding: 10px;
+    background-color: rgb(236, 234, 234);
+    border-radius: 8px;
+    border: 1px solid rgb(47, 115, 217);
+    width: 80%;
+    margin:5px;
+}
+
+.formacion-title{
+    font-weight: 700;
+    font-size: .9rem;
+    margin-bottom: 5%;
+    color: rgb(47, 115, 217);
+    text-align: center;
+}

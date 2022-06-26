@@ -43,7 +43,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#262738a8,rgba(255, 255, 255, 0.148),rgba(29, 29, 29, 0.338));
+    background: linear-gradient(#262738d0,rgba(255, 255, 255, 0.148),rgba(29, 29, 29, 0.338));
     padding-top: 6%;
 }
 
@@ -51,14 +51,18 @@
 
 .buttons{
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background: rgba(47, 46, 46, 0.242);
     color: whitesmoke;
     font-size: 2em;
     top: 45%;
     border: none;
     border-radius: 5px;
+}
+.fa-angle-right, .fa-angle-left{
+    font-size: 2em;
+    color: whitesmoke;
 }
 
 .buttons:hover{
@@ -67,25 +71,25 @@
 }
 
 #next{
-    right: 1rem;
+    right: .6rem;
 } 
 
 #prev{
-    left: 1rem;
+    left: .6rem;
 } 
 
 
 
 .project__titulo{
-    color:rgba(51, 112, 178, 0.76);
+    color:whitesmoke;
     top: 20%;
-    font-size: 1.8em;
+    font-size: 2em;
     font-weight: 700;
     margin-bottom: .4em;
 }
 
 .project__descripcion{
-    color:whitesmoke;
-    font-size: 1.2rem;
+    color:rgb(222, 221, 221);
+    font-size: 1.5rem;
     font-weight: 400;
 }

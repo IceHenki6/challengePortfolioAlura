@@ -36,6 +36,17 @@
     /* align-self: center; */
     margin-top: 2rem;
 }
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fa-linkedin, .fa-github{
+    font-size: 2rem;
+    color: rgb(47, 115, 217);
+    margin-right: 5px;
+}
 
 .socials__container .socials{
     margin: 1em;

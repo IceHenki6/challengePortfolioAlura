@@ -1,8 +1,8 @@
-const button = document.querySelector('.hamburger-menu');
-const navBar = document.querySelector('.nav-bar');
+const navButton = document.querySelector('.hamburger-menu');
+const navBar = document.querySelector('#nav-list');
 
 function DisplayMenu(){
     navBar.classList.toggle('show');
 }
 
-button.addEventListener('click', DisplayMenu);
+navButton.addEventListener('click', DisplayMenu);

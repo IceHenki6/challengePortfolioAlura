@@ -8,11 +8,21 @@ header{
     height: 6vh;
 }
 
+#nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    padding-top: 6%;
+    /* margin-top:auto 1em; */
+}
 
-.nav-bar.show ul{
+.nav-bar.show{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    margin-top: .5em;
+    height: 3vh;
 }
 
 .nav-bar{

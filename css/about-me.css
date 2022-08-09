@@ -3,7 +3,9 @@
     flex-direction: column;
     /* justify-content: center; */
     width: 100vw;
-    height: 75vh;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
     /* background-color: rgb(221, 220, 220); */
 }
 

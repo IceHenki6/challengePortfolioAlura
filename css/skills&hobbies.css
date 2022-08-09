@@ -1,5 +1,10 @@
-.skills, .hobbies{
-    margin-top: 1rem;
+.skills{
+    margin-top: 1.5rem;
+    padding-top: 10%;
+}
+
+.hobbies{
+    /* margin-top: 1rem; */
     padding-top: 10%;
 }
 
@@ -8,6 +13,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     height: 60vh;
     width: 100%;
     padding-top: 10%;
@@ -25,6 +31,8 @@
     background-color: rgb(236, 234, 234);
     border-radius: 8px;
     border: 1px solid rgb(47, 115, 217);
+    padding-top: 10%;
+    padding-bottom: 5%;
     /* margin: 3px; */
 }
 
@@ -32,17 +40,24 @@
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
+    text-overflow:ellipsis;
 }
 
-.fa-brands, .fa-solid{
+.fa-brands, .academic-icons{
     font-size: 3rem;  
     color: rgb(47, 115, 217);
     margin-bottom: 5px;
 }
 
+.fa-car, .fa-gamepad, .fa-music{
+    font-size: 2.4rem;  
+    color: rgb(47, 115, 217);
+    margin-bottom: 8px;
+}
+
 .skill, .hobbie{
     font-weight: 700;
-    font-size: 1rem;
+    font-size: .8rem;
     margin-bottom: 5%;
     color: rgb(47, 115, 217);
 }

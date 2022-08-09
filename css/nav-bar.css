@@ -5,7 +5,7 @@ header{
     align-items: center;
     margin: 0 auto;
     width: var(--main-width);
-    height: 6vh;
+    height: 60px;
 }
 
 #nav{
@@ -13,7 +13,7 @@ header{
     flex-wrap: wrap;
     flex-direction: column-reverse;
     align-items: flex-end;
-    padding-top: 6%;
+    /* padding-top: 6%; */
     /* margin-top:auto 1em; */
 }
 
@@ -35,7 +35,7 @@ header{
 }
 
 .fa-bars{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #e3e4e8;
 }
 

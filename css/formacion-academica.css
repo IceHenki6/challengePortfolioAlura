@@ -1,25 +1,44 @@
 .formacion-academica{
+    width:100%;
+    height: auto;
+    margin-top: .5rem;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+.formacion-titulo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.formacion__container{
     display: flex;
     flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
     align-items: center;
-    width:100%;
-    height: 80vh;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    height: auto;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .formacion-box{
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
-    height: 25%;
+    justify-content: center;
+    align-items: flex-start;
+    height: 135px;
     padding: 10px;
     background-color: rgb(236, 234, 234);
     border-radius: 8px;
     border: 1px solid rgb(47, 115, 217);
     width: 80%;
     margin:5px;
+    
 }
 
 .formacion-title{
@@ -27,5 +46,5 @@
     font-size: .9rem;
     margin-bottom: 5%;
     color: rgb(47, 115, 217);
-    text-align: center;
+    text-align: left;
 }

@@ -1,6 +1,7 @@
 :root{
     --main-width: 90%;
     --main-max-width: 1000px;
+    --azul:rgb(47, 115, 217);
 }
 
 *,

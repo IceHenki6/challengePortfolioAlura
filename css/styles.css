@@ -2,6 +2,8 @@
     --main-width: 90%;
     --main-max-width: 1000px;
     --azul:rgb(47, 115, 217);
+    --card-background: rgb(227, 227, 227);
+    --card-font-color: #00317b;
 }
 
 *,

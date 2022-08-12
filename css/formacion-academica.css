@@ -1,7 +1,7 @@
 .formacion-academica{
     width:100%;
     height: auto;
-    margin-top: .5rem;
+    /* margin-top: .5rem; */
     padding-top: 10%;
     padding-bottom: 10%;
 }
@@ -23,6 +23,7 @@
     width: 100%;
     padding-top: 10%;
     padding-bottom: 10%;
+    gap: 1rem;
 }
 
 .formacion-box{
@@ -31,20 +32,43 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 135px;
-    padding: 10px;
-    background-color: rgb(236, 234, 234);
+    background-color: var(--card-background);
+    color: var(--card-font-color);
     border-radius: 8px;
     border: 1px solid rgb(47, 115, 217);
     width: 80%;
-    margin:5px;
-    
+    height: auto;
+    padding: 5% 2% 5% 2%;
 }
 
 .formacion-title{
     font-weight: 700;
     font-size: .9rem;
     margin-bottom: 5%;
-    color: rgb(47, 115, 217);
+    color: var(--card-font-color);
     text-align: left;
+}
+
+.academic-icons{
+    font-size: 3rem;  
+    color: rgb(47, 115, 217);
+    margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 768px){
+    .formacion-title{
+        font-size: 1.2rem;
+    }
+
+    .academic-icons{
+        font-size: 4.5rem;
+    }
+
+    .formacion-box{
+        width: 60%;
+    }
+
+    .formacion-titulo{
+        font-size: 2rem;
+    }
 }

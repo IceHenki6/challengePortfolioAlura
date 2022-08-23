@@ -4,7 +4,7 @@
     /* justify-content: center; */
     width: 100vw;
     height: auto;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 10%;
     /* background-color: rgb(221, 220, 220); */
 }
@@ -30,4 +30,17 @@
     font-size: 1.1rem;
     line-height: 1.3em;
     text-align: left;
+}
+
+
+
+
+@media only screen and (min-width: 1024px){
+    .about-me__titulo{
+        font-size: 3rem;
+    }
+
+    .about-me__parrafo{
+        font-size: 1.5rem;
+    }
 }

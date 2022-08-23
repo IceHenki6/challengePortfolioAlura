@@ -91,3 +91,32 @@
         max-height: 30%;
     }
 }
+
+@media only screen and (min-width: 1024px){
+    .avatar__img{
+        max-width: 20%;
+        max-height: 20%;
+    }
+
+    .description__seccion{
+        width: 75%;
+    }
+
+    .name{
+        align-self: flex-start;
+        font-size: 2.5rem;
+    }
+
+    .quick-description{
+        font-size: 1.5rem;
+    }
+
+    .fa-linkedin, .fa-github{
+        font-size: 3rem !important;
+    }
+
+    .socials{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+}

@@ -94,3 +94,18 @@
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+
+@media only screen and (min-width: 1024px){
+    .proyectos{
+        height: 95vh;
+    }
+
+    .project__titulo{
+        font-size: 3rem;
+    }
+
+    .project__descripcion{
+        font-size: 1.8rem;
+    }
+}

@@ -79,3 +79,15 @@
         font-size: 2rem;
     }
 }
+
+
+@media only screen and (min-width: 768px){
+    .formacion-academica{
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+
+    .formacion-title{
+        padding-bottom: 0;
+    }
+}

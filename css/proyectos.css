@@ -84,17 +84,23 @@
 .project__titulo{
     color:whitesmoke;
     top: 20%;
-    font-size: 2em;
+    font-size: 2.8em;
     font-weight: 700;
     margin-bottom: .4em;
 }
 
+
+
 .project__descripcion{
+    display: none;
     color:rgb(222, 221, 221);
     font-size: 1.5rem;
     font-weight: 400;
 }
 
+.active-title{
+    display: block;
+}
 
 @media only screen and (min-width: 1024px){
     .proyectos{

@@ -5,7 +5,7 @@ header{
     align-items: center;
     margin: 0 auto;
     /* width: var(--main-width); */
-    height: 60px;
+    height: 80px;
 }
 
 #name{
@@ -21,7 +21,7 @@ header{
 }
 
 .fa-code{
-    color: var(--azul);
+    color: var(--violeta);
 }
 
 #nav{
@@ -34,11 +34,15 @@ header{
 }
 
 .nav-bar.show{
+    position:absolute;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     margin-top: .5em;
     height: 3vh;
+    top: 9%;
+    color: var(--main-font-color);
+    font-weight: 700;
 }
 
 .nav-bar{
@@ -46,13 +50,15 @@ header{
 }
 
 .hamburger-menu{
+    position: absolute;
     border: 0;
     background-color: transparent;
+    top: 3.6%;
 }
 
 .fa-bars{
     font-size: 1.8rem;
-    color: #e3e4e8;
+    color: var(--violeta);
 }
 
 
@@ -60,7 +66,6 @@ header{
     margin: .2em 0 .2em 0;
     font-weight: 400;
     font-size: 1rem;
-    text-transform: uppercase;
 }
 
 
@@ -85,7 +90,7 @@ header{
 
     .nav-items:hover{
         cursor: pointer;
-        border-bottom: 2px solid var(--azul);
+        border-bottom: 2px solid var(--violeta);
         padding-bottom:2%;
     }
 

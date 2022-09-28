@@ -18,7 +18,7 @@
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 1em;
-    color: var(--color-principal);
+    color: var(--main-font-color);
 }
 
 .contact{
@@ -60,8 +60,7 @@
 .input-label{
     position: absolute;
     top: 18px;
-    color:var(--footer-color);
-    color:var(--color-principal);
+    color:var(--main-font-color);
     font-size: 20px;
     font-weight: 700;
     margin-left: .3em;
@@ -69,7 +68,7 @@
 }
 
 .input::placeholder{
-    visibility: hidden;
+    color:transparent;
 }
 
 .input:focus{
@@ -89,7 +88,7 @@
         justify-content: space-evenly;
     }
 
-    .footer-img{
+    #footer-img{
         width: 300px;
     }
 

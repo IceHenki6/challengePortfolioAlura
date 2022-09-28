@@ -32,10 +32,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-color: var(--card-background);
-    color: var(--card-font-color);
+
+    color: var(--main-font-color);
     border-radius: 8px;
-    border: 1px solid rgb(47, 115, 217);
+    border: 3px solid var(--violeta);
     width: 80%;
     height: auto;
     padding: 5% 2% 5% 2%;
@@ -45,13 +45,13 @@
     font-weight: 700;
     font-size: .9rem;
     margin-bottom: 5%;
-    color: var(--card-font-color);
+    color: var(--main-font-color);
     text-align: left;
 }
 
 .academic-icons{
     font-size: 3rem;  
-    color: rgb(47, 115, 217);
+    color: var(--violeta);
     margin-bottom: 5px;
 }
 

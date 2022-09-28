@@ -1,12 +1,17 @@
 :root{
     --main-width: 90%;
     --main-max-width: 1000px;
-    --azul:rgb(47, 115, 217);
+    /* --violeta:rgb(47, 115, 217); */
+    --violeta:#8A90FF;
+    --orange: #F47D27;
     --card-background: rgb(227, 227, 227);
     --card-font-color: #00317b;
     --footer-color: #8A90FF;
     --footer-text: #54033d;
-    --color-principal: #262738;
+    /* --color-principal: #262738; */
+    --color-principal: #F5F5F5;
+    --main-font-color: #262738;
+    /* --main-font-color: #e3e4e8; */
 }
 
 *,
@@ -17,9 +22,9 @@
 
 body{
     /* background-color: rgb(244, 244, 244); */
-    background-color: #262738;
-    font-family: 'Open Sans', sans-serif;
-    color: #e3e4e8;
+    background-color: var(--color-principal);
+    font-family: 'Inter', sans-serif;
+    color: var(--main-font-color);
 }
 
 /* main{

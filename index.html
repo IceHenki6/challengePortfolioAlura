@@ -25,11 +25,11 @@
       </div>
       <nav id="nav">
         <ul class="nav-bar" id="nav-list">
-          <li class="nav-items">Sobre Mi</li>
-          <li class="nav-items">Skills</li>
-          <li class="nav-items">Hobbies</li>
-          <li class="nav-items">Proyectos</li>
-          <li class="nav-items">Contacto</li>
+          <li class="nav-items"><a href="#about-me">About me</a></li>
+          <li class="nav-items"><a href="#skills">Skills</a></li>
+          <li class="nav-items"><a href="#hobbies">Hobbies</a></li>
+          <li class="nav-items"><a href="#proyectos">Projects</a></li>
+          <li class="nav-items"><a href="#footer">Contact</a></li>
         </ul>
         <button class="hamburger-menu">
           <i class="fa-solid fa-bars"></i>
@@ -40,11 +40,11 @@
     <main>
       <section class="description container">
         <div class="description__seccion">
-          <h1 class="name">Hola, mi nombre es Federico Manuel Maximovicz y construyo páginas web</h1>
-          <p class="quick-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eveniet voluptatibus ullam repudiandae animi. Labore porro a facilis accusamus fugiat aliquid ex eos dolores velit illum, sint fugit modi reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eveniet voluptatibus ullam repudiandae animi. Labore porro a facilis accusamus fugiat aliquid ex eos dolores velit illum, sint fugit modi reiciendis.</p>
+          <h1 class="name">Hello, I'm Federico Maximovicz</h1>
+          <p class="quick-description">I'm a junior software developer who is passionate about technology and learning. I'm looking for an opportunity to gain experience in the industry.</p>
           <ul class="socials__container">
-            <li class="socials"><a><i class="fa-brands fa-github"></i></a>GitHub</li>
-            <li class="socials"><a><i class="fa-brands fa-linkedin"></i></a>LinkedIn</li>
+            <li class="socials"><a href="https://github.com/IceHenki6" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a></li>
+            <li class="socials"><a href="https://www.linkedin.com/in/federicomanuelmaximovicz/" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
           </ul>
         </div>
         <div class="avatar">
@@ -55,17 +55,18 @@
 
       <div class="styled-break"></div>
 
-      <section class="about-me container">
+      <section class="about-me container" id="about-me">
         <div class="about-me__container">
-          <h2 class="about-me__titulo">Sobre mi</h2>
+          <h2 class="about-me__titulo">About Me</h2>
           <div class="parrafos__container">
-            <p class="about-me__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, dolor reprehenderit sint explicabo qui nostrum dignissimos nam illo, laborum atque voluptas. Ratione, nihil non modi sint ducimus qui obcaecati et.</p>
-            <p class="about-me__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ex maiores quidem illum voluptatem deserunt amet quibusdam, dolorem ut laboriosam praesentium debitis, atque quo asperiores quis, eveniet corrupti molestiae! Voluptate.</p>
-          </div>
+            <p class="about-me__parrafo">I was born in Misiones, Argentina. Since I was a kid, I have shown great interest in technology and computers. A few years ago, I started learning how to program to become a developer. In 2022 I joined the Oracle Next Education Bootcamp, which helped me to develop my skills to become a full-stack web developer.</p>
+            <p class="about-me__parrafo"> I'm a person with self-initiative and motivation who's constantly learning to become a better professional.</p>
+          </div>        
         </div>
+        <a id="my-projects" href="#proyectos">My Projects</a>
       </section>
 
-      <section class="proyectos">
+      <section class="proyectos" id="proyectos">
         <!-- <div class="projects__titulos">
 
         </div> -->
@@ -76,13 +77,14 @@
             <li class="slide"><img src="images/juego-del-ahorcado.png" alt="captura de pantalla del proyecto juego del ahorcado" class="images"></li>
             <li class="slide"><img src="images/alurageek.png" alt="captura de pantalla del challenge AluraGeek" class="images"></li>
             <li class="slide"><img src="images/screenconversor1.png" alt="captura de pantalla del challenge Conversor de Monedas" class="images"></li>
+
           </ul>
           <div class="overlay container">
-            <h3 class="project__titulo">Proyectos</h3>
-            <p class="project__descripcion active-title">Encriptador de textos</p>
-            <p class="project__descripcion">Juego Del Ahorcado</p>
-            <p class="project__descripcion">Alura Geek</p>
-            <p class="project__descripcion">Conversor de Monedas</p>
+            <h3 class="project__titulo">Projects</h3>
+            <a href="https://icehenki6.github.io/alura-challenge1/" target="_blank" class="project__descripcion active-title"><i class="fa-brands fa-github"></i>Encriptador de textos</a>
+            <a href="https://icehenki6.github.io/alura-challenge-2/" target="_blank" class="project__descripcion"><i class="fa-brands fa-github"></i>Juego Del Ahorcado</a>
+            <a href="https://github.com/IceHenki6/AluraGeek-challenge" target="_blank" class="project__descripcion"><i class="fa-brands fa-github"></i>Alura Geek</a>
+            <a href="https://github.com/IceHenki6/challenge-currency-converter" target="_blank" class="project__descripcion"><i class="fa-brands fa-github"></i>Conversor de Monedas</a>
           </div>
           <button class="buttons" id="next" data-button="next"><i class="fa-solid fa-angle-right"></i></button>
           <button class="buttons" id="prev" data-button="prev"><i class="fa-solid fa-angle-left"></i></button>
@@ -91,7 +93,7 @@
       </section>
 
       
-      <section class="skills container">
+      <section class="skills container" id="skills">
         <h2 class="skills__titulo">Skills</h2>
         <div class="skills__container">
           <div class="skill-box">
@@ -124,72 +126,80 @@
       </section>
 
 
-      <section class="hobbies container">
+      <section class="hobbies container" id="hobbies">
         <h2 class="hobbies__titulo">Hobbies</h2>
         <div class="hobbies__container">
           <div class="hobbies-box">
-            <h4 class="hobbie">Escuchar Música</h4>
+            <h4 class="hobbie">Music</h4>
             <i class="fa-solid fa-music"></i>
           </div>
           <div class="hobbies-box">
-            <h4 class="hobbie">Videojuegos</h4>
+            <h4 class="hobbie">Videogames</h4>
             <i class="fa-solid fa-gamepad"></i>
           </div>
           <div class="hobbies-box">
-            <h4 class="hobbie">Automovilismo</h4>
+            <h4 class="hobbie">Motorsports</h4>
             <i class="fa-solid fa-car"></i>
           </div>
         </div>
       </section>
 
-      <section class="formacion-academica container">
-        <h2 class="formacion-titulo">Formación Académica</h2>
+      <section class="formacion-academica container" id="formacion-academica">
+        <h2 class="formacion-titulo">Academic Formation</h2>
         <div class="formacion__container">
           <div class="formacion-box">
-            <h4 class="formacion-title">Técnico en automotores - Instuto Politécnico San Arnoldo Janssen</h4>
+            <h4 class="formacion-title">Automotive Technician - Instuto Politécnico San Arnoldo Janssen</h4>
             <i class="fa-solid fa-school academic-icons"></i>
           </div>
           <div class="formacion-box">
-            <h4 class="formacion-title">Licenciatura en Sistemas de Información - Universidad Nacional de Misiones (En curso)</h4>
+            <h4 class="formacion-title">Information Systems - Universidad Nacional de Misiones (In progress)</h4>
             <i class="fa-solid fa-building-columns academic-icons"></i>
           </div>
           <div class="formacion-box">
-            <h4 class="formacion-title">Oracle Next Education (En curso)</h4>
+            <h4 class="formacion-title">Oracle Next Education</h4>
             <i class="fa-solid fa-book-open academic-icons"></i>
           </div>
           <div class="formacion-box">
-            <h4 class="formacion-title">Argentina Programa (En curso)</h4>
+            <h4 class="formacion-title">Argentina Programa (In progress)</h4>
             <i class="fa-solid fa-book-open academic-icons"></i>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div>
         <img id="footer-img" src="images/envelope.png" alt="">
       </div>
-      <div class="contact">
-        <legend class="footer-title">Contacto</legend>
+      <form class="contact">
+        <legend class="footer-title">Contact</legend>
         <div class="input-container">
-          <input id="name" class="input" type="text" placeholder="Name" required/>
-          <label class="input-label" for="name">Nombre:</label>
+          <input id="name" class="input" type="text" placeholder="Name" minlength="5" maxlength="50" required/>
+          <label class="input-label" for="name">Name:</label>
         </div>
 
         <div class="input-container">
-          <input id="email" class="input" type="email" placeholder="Email" required/>
+          <input id="email" class="input" type="email" placeholder="Email" minlength="5" maxlength="100" required/>
           <label class="input-label" for="email">Email:</label>
         </div>
 
         <div class="input-container">
-          <input id="asunto" class="input" type="text" placeholder="Asunto" required/>
-          <label class="input-label" for="asunto">Asunto:</label>
+          <input id="asunto" class="input" type="text" placeholder="Subject" minlength="3" maxlength="200" required/>
+          <label class="input-label" for="asunto">Subject:</label>
         </div>
-      </div>
+
+
+        <div class="input-container">
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Write me a message:" required maxlength="400"></textarea>
+        </div>
+
+        <input type="submit" name="btn-enviar" id="btn-enviar">
+      </form>
     </footer>
 
 
 
     <script src="js/slider.js"></script>
     <script src="js/burger-nav-bar.js"></script>
+    <script src="js/form.js"></script>
   </body>
 </html>

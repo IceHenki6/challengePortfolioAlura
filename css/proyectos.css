@@ -96,10 +96,21 @@
     color:rgb(222, 221, 221);
     font-size: 1.5rem;
     font-weight: 400;
+    background-color: rgba(42, 42, 42, 0.338);
+    border-radius: 10px;
+    
+}
+
+.project__descripcion i{
+    margin: 0 15px 0 0;
+    color: white;
 }
 
 .active-title{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }
 
 @media only screen and (min-width: 1024px){
@@ -113,5 +124,11 @@
 
     .project__descripcion{
         font-size: 1.8rem;
+    }
+
+    .active-title{
+        justify-content: flex-start ;
+        padding: 5px;
+        width: 25%;
     }
 }

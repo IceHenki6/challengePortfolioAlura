@@ -12,7 +12,6 @@ button.forEach(btn =>{
 
 
 function MoverSlide(num){
-    console.log('num: ' + num);
     //slides
     const slides = document.querySelectorAll(".slide");
     const active = document.querySelector(".active");
